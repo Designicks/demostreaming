@@ -12,57 +12,84 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `npm test`
+## Steps to setup this App
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1) Install Nodejs and Node Modules
+### 'npm install'
 
-### `npm run build`
+2) Install React in your Device.
+#### 'npx create-react-app my-app'
+#### 'cd my-app'
+#### 'npm start'
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3) Install the dependencies and modules required
+    <p> Install React Framework </p>
+    <span> react": "^16.13.1" </span>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+    <p> Install Bootstrap </p>
+    <span>bootstrap": "^4.5.0"</span>
+#### 'npm install --save bootstrap'
+    
+    <p> Install React Bootstrap </p>
+    <span> "react-bootstrap": "^1.0.1" </span>
+#### 'npm install react-bootstrap bootstrap'
+    
+    <p>Install React Icons</p>
+    <span>bootstrap": "^4.5.0"</span>
+#### 'npm i react-icons'
+    
+    <p>Install React Router</p>
+    <span>bootstrap": "^4.5.0"</span>
+#### 'npm install react-router'
+    
+    <p>Install React Router Dom</p>
+    <span>bootstrap": "^4.5.0"</span>
+#### 'npm install --save react-router-dom'
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4)Build the App using:
+#### 'npm run build'
 
-### `npm run eject`
+<p>A Build or Dist Directory will be created in your App Folder and will contain all the stuffs including index.html, Compiled CSS & JS, Assets, etc</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4)Run the Project and Enjoy the App 
+### 'npm start'
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+-------------------------------------------------------------------------------------------
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### What i think...
 
-## Learn More
+<p>1> I decided on the technical and architectural choices used as part of
+this project solution as </p>
+ <h6> This project is created useing multiple components in a single system to optimize each section of code with the best architecture. Since it is Dynamic Data flow app, in which the content need to provide in a smoother and faster way to users as they won't be waiting for page/content to load, and then go through and access it.
+ React Provides a simplified way to render the only useful/ wanted content as per the user need with the help of React Feactures like "Lazy Loading", "Splitting code into components", "Virtual DOM" - Navigation without Loading whole page instead particular Content/DOM, "State Management", "Props Handling", and "React Bootstrapping" and so on. </h6>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<h6>This app is Splitted into following Components:
+<ul>
+    <li>Header Component</li>
+    <li>Main Content Component</li>
+    <li>Movies Component</li>
+    <li>Series Component</li>
+    <li>Movie/Serie Card Component</li>
+    <li>Not Found Component</li>
+    <li>Footer Component</li>
+</ul>
+<ul>
+    <li>Data is Fetched from JSON API.</li>
+    <li>Fetched Data is Filtered in Ascending Alphabetical Order according to Project Requirements.</li>
+    <li>Sorted Data is Filtered according to Project Requirements.</li>
+    <li>This Data is well presented using the minified UI Design generated in JSX format.</li>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+</ul>
 
-### Code Splitting
+<h6>In this Movies/Series Steaming App, As per User Experience all these factor matters a lot. So This app is technically and architecturally created for the same.</h6>
+<h6>Code is Well Tested, Reuseable and Maintainable.</h6>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
+<p>2> Yes I could make some improvements to this submission as</p>
+<h6>As a User Interface and User Experience Developer I can think more better for this App, Since the given doc file has only limited information about this project. But I can make a it more better</h6>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+ <p>If I were allocated more time I would do it differently in a way that:</p>
+ <h6>UI is the very first Factor that can make a Product Succed. Bcoz it is only a way for USERS to Interact with the Product/Project. So UI can be more Rich & Enhanced.</h6>
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<h6>A better Web App Flow can be plan. So that User won't get confuse anywhere during navigating project.</h6>
