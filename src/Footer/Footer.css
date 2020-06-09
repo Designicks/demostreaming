@@ -1,0 +1,40 @@
+.footer{
+    padding: 2rem;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+.footer .sitemap-links p{
+    color: #8e9494;
+}
+.footer .sitemap-links{
+    color: #acaaab;
+}
+.footer .sitemap-links a:first-child{padding-left: 0;}
+.footer .sitemap-links a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #acaaab;
+    display: inline-block;
+    padding: 5px 12px;
+    transition: all 0.2s ease-in-out;
+}
+.footer .social-icons button.social-btn{
+    width: 40px;
+    color: #fff;
+    font-size: 24px;
+    padding: 5px;
+}
+.footer .sitemap-links a:hover{
+    color: #fff;
+}
+.footer .social-icons button:hover{
+    color: #acaaab;
+}
+.footer .social-icons button.social-btn:first-child{
+    margin-left: -10px;
+}
+.footer .footer-btns img{
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}

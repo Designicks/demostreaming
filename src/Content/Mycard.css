@@ -1,0 +1,37 @@
+.card-type Link a{
+    display: block;
+    float: left;
+}
+.moviepage .card,.seriespage .card{
+    color: #414141;
+    width: 8.8rem;
+    border: 1px solid  rgba(242, 242, 242, 1);
+    padding: 0px;
+    background-color: #fff;
+    display: inline-block;
+    margin: 8px;
+    height: auto;
+    min-height: 200px;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .78);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.35);
+    transition: All 0.2s ease-in-out;
+}
+.card-img-cover{
+    height: 135px;
+    margin-bottom: 5px;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-text{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 2px 6px;
+}
+.card:hover{
+    cursor: pointer;
+    color: #007dfc;
+    border: 1px solid #007dfc;
+}

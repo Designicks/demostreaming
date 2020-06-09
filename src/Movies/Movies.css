@@ -1,0 +1,49 @@
+.moviepage{
+    padding: 0 0 1rem 0;
+}
+.topStatus{
+    padding: 0 20px;
+    padding-left: 15px;
+    display: block;
+    width: 100%;
+}
+.topStatus div{
+    padding: 10px 0 0 0;
+    font-size: 20px;
+    float: left;
+}
+.topStatus p{
+    /* text-align: right; */
+    display: block;
+    margin: 1rem 0;
+    float: right;
+}
+.moviepage .myrow{
+    margin: 0 auto;
+}
+.moviepage .myrow > div{
+    margin: 0 auto;
+}
+.content-full{
+    display: block;
+    width: 100%;
+    background-color: #414141;
+    box-shadow: 0px 2px 6px #545454;
+}
+.content-top > div{
+    padding: 0;
+}
+.content-top{
+    color: #fff;
+    padding: 1rem;
+    padding-left: 0;
+}
+.movie-container{
+    padding: 15px 6px;
+}
+.hrline{
+    display: block;
+    width: 100%;
+    padding: 1px;
+    background-color: #ddd;
+}

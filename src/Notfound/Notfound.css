@@ -1,0 +1,10 @@
+.notfound{
+    padding: 3rem;
+    background-color: antiquewhite;
+    height: auto;
+    min-height: 344px;
+}
+.notfound h2{
+    text-align: center;
+    justify-content: center;
+}

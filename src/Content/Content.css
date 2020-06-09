@@ -1,0 +1,104 @@
+.content-main{
+    height: auto;
+    min-height: 400px;
+}
+
+/* HOME PAGE Category Card */
+.home .innercontent{
+    padding: 1rem 0;
+}
+.home .innercontent .card{
+    width: 9rem;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.35);
+}
+.home .cardtiles{
+    border: 1px solid #ddd;
+    padding: 0px;
+    background-color: #fff;
+    display: inline-block;
+    margin: 16px;
+}
+.home .cardtiles .card-text{
+    font-size: 16px;
+    color: #414141;
+    padding: 8px;
+    transition: all 0.2s ease-in-out 0s;
+}
+.home .card-img-cover{
+    height: 145px;
+    margin-bottom: 0;
+}
+.home .cardtiles img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.home .cardtiles .card-img-overlay {
+    background: rgba(0, 0, 0, 0.685);
+    position: absolute;
+    height: 145px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+.home .card-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding: 15px;
+    width: 100%;
+    top: 45%;
+    left: 50%;
+    opacity: 0;
+    text-transform: uppercase !important;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+.home .card:hover .card-details {
+    top: 45%;
+    left: 50%;
+    opacity: 1;
+    padding: 15px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+.home .card:hover .card-text{
+    color: #007dfc;
+}
+.home .card:hover{
+    cursor: pointer;
+    border: 1px solid #007dfc;
+}
+.home .card:hover .card-img-overlay {
+    opacity: 1;
+    color: #fff;
+}
+.content-full{
+    display: block;
+    width: 100%;
+    background-color: #414141;
+    box-shadow: 0px 4px 10px #acaaab;
+}
+.content-top > div{
+    padding: 0;
+}
+.content-top{
+    color: #fff;
+    padding: 1rem;
+    padding-left: 0;
+}
+
+/* HOME PAGE Category Card */
+
