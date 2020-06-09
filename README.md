@@ -41,6 +41,7 @@
 4)Run the Project and Enjoy the App 
 ### 'npm start'
 
+5) Project Build files are in Build Folder
 -------------------------------------------------------------------------------------------
 
 ### What i think...
