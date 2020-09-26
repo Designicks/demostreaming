@@ -3,6 +3,7 @@ import './Header.css'
 import {Container,Row} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 import { FiLogIn } from "react-icons/fi";
+import { FaGithub } from "react-icons/fa";
 
 const Header = (Props) => {
  return(
@@ -12,6 +13,9 @@ const Header = (Props) => {
         <Row>
           <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12"> 
           <div className="head-title">
+
+         <a href="https://designick.com" target="_blank"> <img src="https://designick.com/assets/images/designick_PRO.png"></img> </a>
+          
           <Link to={"/"}>
               <button
                 className="btn"
@@ -27,6 +31,7 @@ const Header = (Props) => {
           <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-right">
             <div className="right-nav">
               <button className="btn login-btn"><span><FiLogIn /></span> Login   </button>
+              <a href="https://github.com/designicks/"> <button className="btn btn-light trial-btn mr-2"><span><FaGithub /></span> Collab </button> </a>
               <button className="btn btn-dark trial-btn">Start A Free Trial</button>
             </div>
           </div>

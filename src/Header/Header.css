@@ -27,3 +27,8 @@ a:hover{
 .header .right-nav .login-btn:hover{
     color: #414141; 
 }
+.head-title img{
+    width: 100%;
+    max-width: 50px;
+    margin-right: 0.4rem;
+}

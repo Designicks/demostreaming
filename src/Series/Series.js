@@ -38,14 +38,14 @@ const Series = () => {
                     <Container>
                         <div className="content-top">
                             <div className="col-lg-12 col-md-12 col-sm-12">
-                            <h5 className="title">Popular Movies</h5>
+                            <h5 className="title">Popular Series</h5>
                             </div>
                         </div>
                     </Container>
                 </div>
                 <div className="topStatus clearfix container">
                     <Link to={"/"}> <div><FaArrowLeft /></div> </Link>
-                    <p>Total {series.length} Movies in A-Z Order</p>
+                    <p>Total {series.length} Series in A-Z Order</p>
                 </div>
                 <span className="hrline"></span>
 
@@ -53,7 +53,10 @@ const Series = () => {
                     <Row className="myrow">
                     {series.map((serie,index)=>{
                         return (<div>
-                            <Link to={'/serie.title'}>
+                            <Link to={{pathname: "/serie.title",
+                                state: {
+                                tile: serie}
+                                }}> 
                             <Mycard type={serie.title} imgsrc={serie.images['Poster Art'].url} > </Mycard>
                             </Link>
                                 </div>)

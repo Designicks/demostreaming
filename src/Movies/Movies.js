@@ -63,7 +63,13 @@ const Movies = (props) => {
                     <Row className="myrow">
                     {movies.map((movie,index)=>{
                         return (<div>
-                            <Link to={'/movie.title'}> 
+
+ 
+
+                <Link to={{pathname: "/movie.title",
+                    state: {
+                    tile: movie}
+                    }}> 
                             <Mycard type={movie.title} imgsrc={movie.images['Poster Art'].url} > </Mycard>
                             </Link>
                         </div>)
