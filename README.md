@@ -48,7 +48,7 @@
 
 <p>1> I decided on the technical and architectural choices used as part of
 this project solution as </p>
- <h6> This project is created useing multiple components in a single system to optimize each section of code with the best architecture. Since it is Dynamic Data flow app, in which the content need to provide in a smoother and faster way to users as they won't be waiting for page/content to load, and then go through and access it.
+ <h6> This project is created using multiple components in a single system to optimize each section of code with the best architecture. Since it is Dynamic Data flow app, in which the content need to provide in a smoother and faster way to users as they won't be waiting for page/content to load, and then go through and access it.
  React Provides a simplified way to render the only useful/ wanted content as per the user need with the help of React Feactures like "Lazy Loading", "Splitting code into components", "Virtual DOM" - Navigation without Loading whole page instead particular Content/DOM, "State Management", "Props Handling", and "React Bootstrapping" and so on. </h6>
 
 <h6>This app is Splitted into following Components:
@@ -63,8 +63,7 @@ this project solution as </p>
 </ul>
 <ul>
     <li>Data is Fetched from JSON API.</li>
-    <li>Fetched Data is Filtered in Ascending Alphabetical Order according to Project Requirements.</li>
-    <li>Sorted Data is Filtered according to Project Requirements.</li>
+    <li>Fetched Data is Filtered & Sorted in Ascending Alphabetical Order.</li>
     <li>This Data is well presented using the minified UI Design generated in JSX format.</li>
 
 </ul>
@@ -73,10 +72,6 @@ this project solution as </p>
 <h6>Code is Well Tested, Reuseable and Maintainable.</h6>
 
 
-<p>2> Yes I could make some improvements to this submission as</p>
-<h6>As a User Interface and User Experience Developer I can think more better for this App, Since the given doc file has only limited information about this project. But I can make a it more better</h6>
+<h6>As a User Interface and User Experience Developer I can think more better for this App. This Web app can be improved more. I will work on it in future.</h6>
 
- <p>If I were allocated more time I would do it differently in a way that:</p>
- <h6>UI is the very first Factor that can make a Product Succed. Bcoz it is only a way for USERS to Interact with the Product/Project. So UI can be more Rich & Enhanced.</h6>
-
-<h6>A better Web App Flow can be plan. So that User won't get confuse anywhere during navigating project.</h6>
+<h6>Collaborate on this Project.</h6>
