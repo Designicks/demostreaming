@@ -9,27 +9,27 @@
 #### 'npm start'
 
 3) Install the dependencies and modules required
-    <p> Install React Framework </p>
-    <span> react": "^16.13.1" </span>
+    Install React Framework
+    react": "^16.13.1"
 
-    <p> Install Bootstrap </p>
-    <span>bootstrap": "^4.5.0"</span>
+    Install Bootstrap
+    bootstrap": "^4.5.0"
 #### 'npm install --save bootstrap'
     
-    <p> Install React Bootstrap </p>
-    <span> "react-bootstrap": "^1.0.1" </span>
+    Install React Bootstrap
+    "react-bootstrap": "^1.0.1"
 #### 'npm install react-bootstrap bootstrap'
     
-    <p>Install React Icons</p>
-    <span>bootstrap": "^4.5.0"</span>
+    Install React Icons
+    "bootstrap": "^4.5.0"
 #### 'npm i react-icons'
     
-    <p>Install React Router</p>
-    <span>bootstrap": "^4.5.0"</span>
+    Install React Router
+    "bootstrap": "^4.5.0"
 #### 'npm install react-router'
     
-    <p>Install React Router Dom</p>
-    <span>bootstrap": "^4.5.0"</span>
+    Install React Router Dom
+    "bootstrap": "^4.5.0"
 #### 'npm install --save react-router-dom'
 
 4)Build the App using:
